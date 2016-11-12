@@ -1,0 +1,24 @@
+{
+  "name": "electron-compile-universe",
+  "version": "1.0.0",
+  "description": "Bare-bones project to demonstrate the powers of electron-compile at GitHub Universe 2016",
+  "main": "src/app.js",
+  "author": "Machisté N. Quintana <mnquintana@users.noreply.github.com",
+  "license": "MIT",
+  "dependencies": {
+    "electron-drag": "^1.2.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-split-pane": "^0.1.52"
+  },
+  "private": true,
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "babel-preset-es2016-node5": "^1.1.2",
+    "babel-preset-react": "^6.5.0",
+    "electron-prebuilt-compile": "^1.1.3",
+    "electron-rebuild": "^1.3.0"
+  }
+}
