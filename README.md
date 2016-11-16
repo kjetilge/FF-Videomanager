@@ -19,3 +19,9 @@ npm start
 ##Some modules need this:
 Every time you run "npm install", run this:
 ./node_modules/.bin/electron-rebuild
+
+##Pane style
+paneStyle - Styling to be applied to both panes
+pane1Style - Styling to be applied to the first pane, with precedence over paneStyle
+pane2Style - Styling to be applied to the second pane, with precedence over paneStyle
+resizerStyle - Styling to be applied to the resizer bar
